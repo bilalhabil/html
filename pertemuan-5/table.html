@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar Table Di HTML</title>
+  </head>
+  <body>
+    <h1>Membuat Table Pada HTML</h1>
+    <table border="1">
+      <tr>
+        <td>Beruang</td>
+        <td>Singa</td>
+        <td>Harimau</td>
+      </tr>
+      <tr>
+        <td>Mangga</td>
+        <td>Durian</td>
+        <td>Apel</td>
+      </tr>
+      <tr>
+        <td>Mobil</td>
+        <td>Motor</td>
+        <td>Kapal</td>
+      </tr>
+      <tr>
+        <td>Mobil</td>
+        <td>Motor</td>
+        <td>Kapal</td>
+      </tr>
+    </table>
+    <hr />
+    <table border="1" cellpadding="10">
+      <thead>
+        <tr bgcolor="red">
+            <th>Binatang</th>
+            <th>Buah-buahan</th>
+            <th>Tumbuh-tumbuhan</th>
+          </tbody>
+        </tr>
+      <thead>
+      <tr>
+        <td bgcolor="yellow">Harimau</td>
+        <td>Manggis</td>
+        <td>Bunga</td>
+      </tr>
+      <tr>
+        <td>Panda</td>
+        <td>Pisang</td>
+        <td>Pohon</td>
+      </tr>
+      <tr>
+        <td>Banteng</td>
+        <td>Durian</td>
+        <td>Ganja</td>
+      </tr>
+      <tr>
+        <td>Musang</td>
+        <td>Rambutan</td>
+        <td>Rumput</td>
+      </tr>
+      </thead>
+    </table>
+    <hr />
+    <h1>Menggabungkan Cell Pada HTML</h1>
+    <table border="1" cellpadding="10">
+      <thead>
+        <tr bgcolor="red">
+            <th>Binatang</th>
+            <th colspan="2">Buah-buahan</th>
+          </tbody>
+        </tr>
+      <thead>
+      <tr>
+        <td bgcolor="yellow">Harimau</td>
+        <td colspan="2">Manggis</td>
+      </tr>
+      <tr>
+        <td colspan="3">Panda</td>
+      </tr>
+      <tr>
+        <td>Banteng</td>
+        <td rowspan="6">Durian</td>
+        <td>Ganja</td>
+      </tr>
+      <tr>
+        <td>Musang</td>
+   
+        <td>Rumput</td>
+      </tr>
+      <tr>
+        <td>Banteng</td>
+
+        <td>Ganja</td>
+      </tr>
+      <tr>
+        <td>Musang</td>
+        <td>Rumput</td>
+      </tr>
+      <tr>
+        <td rowspan="2">Banteng</td>
+    
+        <td rowspan="2">Ganja</td>
+      </tr>
+      
+      <tr>
+        </tr>
+      </thead>
+    </table>
+        <hr>
+      <h1>Memyisipkan Elemen Lain Ke Dalam Cell Pada HTML</h1>
+    <table border="1">
+      <tr>
+        <td rowspan="4"><img src="./../pertemuan-3/tokyo.jpg" alt="" width="50"></td>
+        <td>Singa</td>
+        <td>Harimau</td>
+      </tr>
+      <tr>
+        <td>Durian</td>
+        <td>Apel</td>
+      </tr>
+      <tr>
+        <td>Motor</td>
+        <td>Kapal</td>
+      </tr>
+      <tr>
+        <td>Motor</td>
+        <td>Kapal</td>
+      </tr>
+    </table>
+  </body>
+</html>
