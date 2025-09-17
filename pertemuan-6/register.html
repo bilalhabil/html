@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Register</title>
+  </head>
+  <body>
+    <fieldset>
+      <legend style="font-weight: bold">Register</legend>
+      <div>
+        <label for="name">Nama</label>
+        <input type="text" name="nama" placeholder="Nama Lengkap" id="name" />
+      </div>
+      <div>
+        <label for="username">Username</label>
+        <input
+          type="text"
+          name="username"
+          placeholder="Username"
+          id="username"
+        />
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" placeholder="Your Email" id="email" />
+      </div>
+      <div>
+        <label for="password">Password</label>
+        <input
+          type="password"
+          name="password"
+          placeholder="Password"
+          id="password"
+        />
+      </div>
+      <div>
+        <label for="jenis-kelamin">Jenis Kelamin</label>
+        <label
+          ><input
+            type="radio"
+            name="jenis-kelamin"
+            value="Laki-Laki"
+          />Laki-Laki</label
+        >
+        <label
+          ><input
+            type="radio"
+            name="jenis-kelamin"
+            value="Perempuan"
+          />Perempuan</label
+        >
+      </div>
+      <div>
+        <label>Agama</label>
+        <select name="agama">
+          <option value="islam">Islam</option>
+          <option value="kristen">Kristen</option>
+          <option value="hindu">Hindu</option>
+          <option value="budha">Budha</option>
+        </select>
+      </div>
+      <div>
+        <label>Biografi</label>
+        <textarea name="biografi"></textarea>
+      </div>
+      <div>
+        <input type="submit" name="submit" value="Daftar" />
+      </div>
+    </fieldset>
+  </body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas 13</title>
+  </head>
+  <body>
+    <form action="action.php" method="post"></form>
+    <div>
+      <label for="name">Nama</label>
+      <input type="text" name="nama" placeholder="Nama Lengkap" id="name" />
+    </div>
+    <label for="alamat">Alamat</label>
+    <textarea name="alamat" placeholder="Alamat" id="alamat"></textarea>
+    <div>
+      <label for="jenis-kelamin">Jenis Kelamin</label>
+      <label
+        ><input
+          type="radio"
+          name="jenis-kelamin"
+          value="Laki-Laki"
+        />Laki-Laki</label
+      >
+      <label
+        ><input
+          type="radio"
+          name="jenis-kelamin"
+          value="Perempuan"
+        />Perempuan</label
+      >
+    </div>
+    <div>
+      <label>Hobi</label>
+      <label
+        >Memasak<input type="checkbox" name="memasak" value="Memasak"
+      /></label>
+      <label
+        >Bersepeda<input type="checkbox" name="bersepeda" value="Bersepeda"
+      /></label>
+      <label>Lari<input type="checkbox" name="lari" value="Lari" /></label>
+      <label
+        >Panahan<input type="checkbox" name="panahan" value="Panahan"
+      /></label>
+      <label
+        >Renang<input type="checkbox" name="renang" value="Renang"
+      /></label>
+    </div>
+    <div>
+      <input type="submit" name="submit" value="Kirim" />
+    </div>
+  </body>
+</html>
